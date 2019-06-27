@@ -1,7 +1,7 @@
 import sqlite3
 import PyPDF2 
 
-pdfFileObj = open('PDF\9791 PEREZ s1.pdf','rb') 
+pdfFileObj = open('samplepdf.pdf','rb') 
 
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 
